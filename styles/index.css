@@ -1,0 +1,23 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./page-header.css";
+@import "./page-content.css";
+@import "./page-footer.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: normal;
+    color:  #4E4E4E;
+  }
+
+.page_wrapper {
+    margin: 0 auto;
+    width: 1600px;
+}
